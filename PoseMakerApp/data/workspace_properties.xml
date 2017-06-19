@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the workspace controls, which are custom for each application
+-->
+<properties>
+    <property_list>
+        <!-- PROGRAM ICON FILES -->
+	<property name="SELECTION_TOOL_ICON"	value="SelectionTool.png"></property>
+	<property name="REMOVE_ICON"		value="Remove.png"></property>
+        <property name="RECTANGLE_ICON"		value="Rect.png"></property>
+	<property name="ELLIPSE_ICON"		value="Ellipse.png"></property>
+	<property name="MOVE_TO_FRONT_ICON"	value="MoveToFront.png"></property>
+	<property name="MOVE_TO_BACK_ICON"	value="MoveToBack.png"></property>
+	<property name="SNAPSHOT_ICON"		value="Snapshot.png"></property>
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+	<property name="SELECTION_TOOL_TOOLTIP"	    value="选自形状"></property>
+        <property name="REMOVE_ELEMENT_TOOLTIP"	    value="删除形状"></property>
+	<property name="RECTANGLE_TOOLTIP"	    value="四边形"></property>
+	<property name="ELLIPSE_TOOLTIP"	    value="椭圆形"></property>
+	<property name="MOVE_TO_BACK_TOOLTIP"	    value="移动后排"></property>
+	<property name="MOVE_TO_FRONT_TOOLTIP"	    value="移动前排"></property>
+	<property name="BACKGROUND_TOOLTIP"	    value="选自背景颜色"></property>
+	<property name="FILL_TOOLTIP"		    value="选择图形颜色"></property>
+	<property name="OUTLINE_TOOLTIP"	    value="选择边缘颜色"></property>
+	<property name="SNAPSHOT_TOOLTIP"	    value="照相"></property>
+	
+	<!-- MESSAGES -->
+	<property name="REMOVE_ELEMENT_MESSAGE"	    value="有确定你要删除这个图形吗"></property>
+		
+	<!-- ERROR MESSAGES AND TITLES FOR THEIR DIALOGS -->
+	<property name="ATTRIBUTE_UPDATE_ERROR_MESSAGE"	    value="NOOOOOOOOOOO 不行"></property>
+	<property name="ATTRIBUTE_UPDATE_ERROR_TITLE"	    value="Attribute Update 错误"></property>
+	<property name="UPDATE_ERROR_MESSAGE"		    value="updat UI 错误"></property>
+	<property name="UPDATE_ERROR_TITLE"		    value="UI Update 错误"></property>
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>
